@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Navigation Bar</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="header">
+        <nav>
+          <a href="#" class="logo">Loopstech</a>
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar" id="mobile-navbar">
+            <!-- <li class="nav-item"><a href="#">Home</a></li> -->
+            <li class="nav-item"><a href="#">Blog</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Work</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+            <li class="nav-item"><button class="cta__btn">Call Now</button></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="hero">
+        <div class="hero__wrapper">
+          <div class="hero__desc">
+            <h1 class="title">
+              Design to grow your <span>online business.</span>
+            </h1>
+            <p class="subtitle">
+              We design and ship websites for our clients and transform
+              companies into digital platform.
+            </p>
+            <button class="hero__btn">Tell me more</button>
+          </div>
+          <div class="hero__img">
+            <img src="./images/hero-img.jpg" alt="hero-img" width="540px" />
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="features__wrapper">
+          <h2 class="features__heading">What we delivered.</h2>
+          <div class="card">
+            <div class="card__item">
+              <div class="card__img">
+                <img src="./images/portfolio.webp" alt="" />
+              </div>
+              <div class="card__desc">
+                <h3 class="card__title">portfolio websites</h3>
+                <p class="card__details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore facilis dolores quae corrupti eum, dicta minus ea
+                  quisquam dolore quam.
+                </p>
+                <button class="card__btn">view</button>
+              </div>
+            </div>
+            <div class="card__item">
+              <div class="card__img">
+                <img src="./images/ecommerce.jpg" alt="" />
+              </div>
+              <div class="card__desc">
+                <h3 class="card__title">ecommerce websites</h3>
+                <p class="card__details">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolorem cupiditate sequi voluptates aspernatur hic odio a
+                  eaque nostrum animi corporis.
+                </p>
+                <button class="card__btn">view</button>
+              </div>
+            </div>
+            <div class="card__item">
+              <div class="card__img">
+                <img src="./images/grocery.webp" alt="" />
+              </div>
+              <div class="card__desc">
+                <h3 class="card__title">grocery websites</h3>
+                <p class="card__details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Optio, eos repudiandae saepe laboriosam doloremque
+                  voluptatibus alias quo praesentium perferendis culpa.
+                </p>
+                <button class="card__btn">view</button>
+              </div>
+            </div>
+            <div class="card__item">
+              <div class="card__img">
+                <img src="./images/blogging.webp" alt="" />
+              </div>
+              <div class="card__desc">
+                <h3 class="card__title">blogging websites</h3>
+                <p class="card__details">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt iusto explicabo modi. Similique, corporis. Vel
+                  tempora voluptates vitae voluptate saepe?
+                </p>
+                <button class="card__btn">view</button>
+              </div>
+            </div>
+          </div>
+          <button class="features__btn">And more</button>
+        </div>
+      </section>
+      <section class="testimonials">
+        <h2 class="testimonials__heading">What our client says</h2>
+        <div class="testimonials__wrapper">
+          <div class="user__testimonials" id="reverse">
+            <button class="profile">
+              <img src="./images/avatar.jpg" alt="" />
+              <div class="profile__info">
+                <h4>Erik Oswal</h4>
+                <p>Writer in Airbnb</p>
+              </div>
+            </button>
+
+            <div class="content">
+              <h3 class="text">
+                <span><i class="fas fa-quote-left"></i></span> Lorem ipsum dolor
+                sit amet consectetur, adipisicing elit. Magnam itaque omnis cum
+                consequuntur. Sequi, corporis error? Dicta eligendi tempore,
+                alias consequuntur delectus vero facere?
+                <span><i class="fas fa-quote-right"></i></span>
+              </h3>
+            </div>
+          </div>
+          <div class="user__testimonials" id="reverse">
+            <button class="profile">
+              <img src="./images/avatar.jpg" alt="" />
+              <div class="profile__info">
+                <h4>Erik Oswal</h4>
+                <p>Writer in Airbnb</p>
+              </div>
+            </button>
+
+            <div class="content">
+              <h3 class="text">
+                <span><i class="fas fa-quote-left"></i></span> Lorem ipsum dolor
+                sit amet consectetur, adipisicing elit. Magnam itaque omnis cum
+                consequuntur. Sequi, corporis error? Dicta eligendi tempore,
+                alias consequuntur delectus vero facere?
+                <span><i class="fas fa-quote-right"></i></span>
+              </h3>
+            </div>
+          </div>
+          <div class="user__testimonials" id="reverse">
+            <button class="profile">
+              <img src="./images/avatar.jpg" alt="" />
+              <div class="profile__info">
+                <h4>Erik Oswal</h4>
+                <p>Writer in Airbnb</p>
+              </div>
+            </button>
+
+            <div class="content">
+              <h3 class="text">
+                <span><i class="fas fa-quote-left"></i></span> Lorem ipsum dolor
+                sit amet consectetur, adipisicing elit. Magnam itaque omnis cum
+                consequuntur. Sequi, corporis error? Dicta eligendi tempore,
+                alias consequuntur delectus vero facere?
+                <span><i class="fas fa-quote-right"></i></span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pricing">
+        <div class="pricing__wrapper">
+          <h2 class="pricing__heading">Pricing Plans</h2>
+          <p class="pricing__text">If you're not satisfied, contact us within 14 daysand we'll send you a full refund.</p>
+          <div class="pricing__cards">
+            <div class="p-card">
+              <div class="p-card_info">
+                <h3 class="p-card__title">Individual</h3>
+                <p class="p-card__subtitle">All the basics for starting a new business</p>
+                <h2 class="p-card__price">Rs.3999<span>/per site</span></h2>
+                <button class="p-card__cta">Buy Individual</button>
+              </div>
+              <div class="p-card_include">
+                <h4>what's included</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet.</li>
+                  <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet.</li>
+                  <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet.</li>
+                  <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-card">
+              <div class="p-card_info">
+                <h3 class="p-card__title">Enterprise</h3>
+                <p class="p-card__subtitle">All the basics for starting a new business</p>
+                <h2 class="p-card__price">Rs.6999<span>/per site</span></h2>
+                <button class="p-card__cta">Buy Enterprise</button>
+              </div>
+              <div class="p-card_include">
+                <h4>what's included</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet.</li>
+                  <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet.</li>
+                  <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet.</li>
+                  <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="subscribe__wrapper">
+          <div class="info">
+            <p>Want products news and updates?</p>
+            <p>Sign up for our newsletter to stay up to date.</p>
+          </div>
+          <div>
+            <form>
+              <input type="email" placeholder="Enter your email" />
+              <button class="form__cta">Notify me</button>
+            </form>
+            <p class="form__text">We care about the protection of your data. Read our <a href="#">Privacy Policy.</a></p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <ul class="footer__links">
+            <li class="footer__item"><a href="#">company</a></li>
+            <li class="footer__item"><a href="#">about</a></li>
+            <li class="footer__item"><a href="#">blog</a></li>
+            <li class="footer__item"><a href="#">marketing</a></li>
+            <li class="footer__item"><a href="#">partners</a></li>
+          </ul>
+          <ul class="footer__links">
+            <li class="footer__item"><a href="#">support</a></li>
+            <li class="footer__item"><a href="#">claim</a></li>
+            <li class="footer__item"><a href="#">privacy</a></li>
+            <li class="footer__item"><a href="#">terms</a></li>
+            <li class="footer__item"><a href="#">contact us</a></li>
+          </ul>
+          <div class="footer__copyrights">
+            <p>&copy; 2020 Workflow, Inc. All rights reserved.</p>
+          </div>
+          <ul class="footer__socials">
+            <li class="social__link">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="social__link">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="social__link">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="social__link">
+              <a href="#"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social__link">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+          <button class="footer__cta">Get started</button>
+        </div>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
